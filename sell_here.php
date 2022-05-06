@@ -25,57 +25,57 @@
       <div class="strip d-flex justify-content-between px-4 py-1" style="background-color: #c1003c;">
           <p class="font-rale font-size-12 text-light m-0">Welcome to this footwear Selling Website</p>
           <div class="font-rale font-size-14">
-              <a href="#" class="px-3 border-right border-left text-light">Login</a>
+              <a href="registration.php" class="px-3 border-right border-left text-light">Login</a>
               <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
           </div>
       </div>
 
       <!-- Start Primary Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e40046;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Footwear Shoppee</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-auto font-rubik">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Products
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="mens.html">Mens</a>
-                  <a class="dropdown-item" href="kids.html">Kids</a>
-                  <a class="dropdown-item" href="sports.html">Sports</a>
-                  <a class="dropdown-item" href="sneakers.html">Sneakers</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="refurbished.html">Refurbished</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sell_here.html">Sell here</a>
-              </li>
-            </ul>
-            <form action="#" class="font-size-14 font-rale">
-                <a href="#" class="py-2 rounded-pill color-primary-bg">
-                    <span class="font-size-15 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
-                    <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
-                </a>
-            </form>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Footwear Shoppee</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav m-auto font-rubik">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="mens.php">Mens</a>
+                    <a class="dropdown-item" href="kids.php">Kids</a>
+                    <a class="dropdown-item" href="sports.php">Sports</a>
+                    <a class="dropdown-item" href="sneakers.php">Sneakers</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="refurbished.php">Refurbished</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sell_here.php">Sell here</a>
+                </li>
+              </ul>
+              <form action="#" class="font-size-14 font-rale">
+                  <a href="cart.php" class="py-2 rounded-pill color-primary-bg">
+                      <span class="font-size-15 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                      <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                  </a>
+              </form>
+            </div>
           </div>
-        </div>
-    </nav>
-    <!-- End Primary Navigation -->  
+      </nav>
+      <!-- End Primary Navigation -->  
   </header>
   <!-- End Header -->
     <div class="back-body">
@@ -103,46 +103,48 @@
 
 
 
-    <!-- Start Footer -->
-    <footer id="footer" class="bg-dark text-white py-5">
-      <div class="container">
-        <div class="row d-flex justify-content-around">
-          <div class="col-lg-3 col-12">
-            <h4 class="font-rubik font-size-20">Footwear Shoppee</h4>
-            <p class="font-size-14 font-rale text-white-50">Give your feet the beauty treatment that only brand new shoes can give.</p>
-          </div>
-          <div class="col-lg-4 col-12">
-            <h4 class="font-rubik font-size-20">Newsletter</h4>
-            <form class="form-row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Email *">
-              </div>
-              <div class="col">
-                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-2 col-12">
-            <h4 class="font-rubik font-size-20">Information</h4>
-            <div class="d-flex flex-column flex-wrap">
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+   <!-- Start Footer -->
+   <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-12">
+              <h4 class="font-rubik font-size-20">Footwear Shoppee</h4>
+              <p class="font-size-14 font-rale text-white-50">Give your feet the beauty treatment that only brand new shoes can give.</p>
             </div>
-          </div>
-          <!-- <div class="col-lg-2 col-12">
-            <h4 class="font-rubik font-size-20">Account</h4>
-            <div class="d-flex flex-column flex-wrap">
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">WishList</a>
-              <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
+            <div class="col-lg-4 col-12">
+              <h4 class="font-rubik font-size-20">Feedback</h4>
+              <form action="feedback.php" method="post" class="form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="username" name="username">
+                  <br>
+                  <textarea class="form-control" placeholder="Description" name="Description1"></textarea>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+              </form>
             </div>
-          </div> -->
+            <div class="col-lg-2 col-12">
+              <h4 class="font-rubik font-size-20">Information</h4>
+              <div class="d-flex flex-column flex-wrap">
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+              </div>
+            </div>
+            <!-- <div class="col-lg-2 col-12">
+              <h4 class="font-rubik font-size-20">Account</h4>
+              <div class="d-flex flex-column flex-wrap">
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">WishList</a>
+                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletters</a>
+              </div>
+            </div> -->
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     <div class="copyright text-center bg-dark text-white py-2">
       <p class="font-rale font-size-14">&copy; Copyrights 2022. Designed by Pratham, Sonu and Suresh.</p>
     </div>

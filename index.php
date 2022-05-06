@@ -61,14 +61,14 @@
                   <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="refurbished.html">Refurbished</a>
+                  <a class="nav-link" href="refurbished.php">Refurbished</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="sell_here.html">Sell here</a>
+                  <a class="nav-link" href="sell_here.php">Sell here</a>
                 </li>
               </ul>
               <form action="#" class="font-size-14 font-rale">
-                  <a href="cart.html" class="py-2 rounded-pill color-primary-bg">
+                  <a href="cart.php" class="py-2 rounded-pill color-primary-bg">
                       <span class="font-size-15 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
                       <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
                   </a>
