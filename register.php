@@ -1,27 +1,27 @@
 <?php
-session_start();
 
-$con = mysqli_connect('localhost','root');
+  session_start();
+  header('location: registration.php');
 
-mysqli_select_db($con, 'userRegisteration');
+  $con = mysqli_connect('localhost','root','');
 
-$name = $_POST['username'];
-$email= $_POST['Email'];
-$pass = $_POST['password'];
+  mysqli_select_db($con, 'register');
 
-$s = "select * from usertable where name = '$name'";
+  $username = $_POST['username'];
+  $email = $_POST['email'];
+  $password = $_POST['password1'];
 
-$result = mysqli_query($con,$s);
+  $s = "SELECT * FROM registration WHERE username = '$username' ";
 
-$num = mysqli_num_rows($result);
+  $result = mysqli_query($con,$s);
 
-if($num ==1){
-    echo"username aleready taken";
-}
-else{
-    $reg = "insert into usertable(username,Email,password) values ('$name','$email','$pass')";
-    mysqli_query($con,$reg);
-    echo "Registeration Successful";
-}
+  $num = mysqli_num_rows($result);
 
+  if($num==1){
+      echo"Username aleready taken";
+  }else{
+      $reg ="INSERT INTO registration(username , email , password1) VALUES('$username' , '$email' , '$password')";
+      mysqli_query($con, $reg);
+      echo "registration Successfull....";
+  }
 ?>

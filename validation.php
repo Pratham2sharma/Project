@@ -1,24 +1,24 @@
 <?php
-session_start();
 
-$con = mysqli_connect('localhost','root');
+  session_start();
+ 
 
-mysqli_select_db($con, 'userRegisteration');
+  $con = mysqli_connect('localhost','root','');
 
-$name = $_POST['username'];
-$pass = $_POST['password'];
+  mysqli_select_db($con, 'register');
 
-$s = "select * from usertable where name = '$name' && password = '$pass'";
+  $username = $_POST['username'];
+  $password = $_POST['password1'];
 
-$result = mysqli_query($con,$s);
+  $s = "SELECT * FROM registration WHERE username = '$username' && password1 = '$password' ";
 
-$num = mysqli_num_rows($result);
+  $result = mysqli_query($con,$s);
 
-if($num ==1){
-    header('location:home.php');
-}
-else{
-    header('location:login.php');
-}
-
+  $num = mysqli_num_rows($result); 
+     
+  if($num==1){
+    header('location: index.php');
+  }else{
+    header('location: registration.php');
+  }
 ?>
