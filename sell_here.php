@@ -80,19 +80,20 @@
   <!-- End Header -->
     <div class="back-body">
       <h1 class="sell">SELL HERE</h1>
-      <form>
+      <form action="sell_validate.php" method="post">
         <img src="products/shoes.png" class="nike">
       <div class="container3">
-            <h5>Footwear Name:<br><input type="text" placeholder="adidas"></h5>
+            <h5>Footwear Name:<br><input type="text" placeholder="adidas" name="footwear_name"></h5>
             <br>
-            <h5>Size:<br><input type="number" value="5"></h5>
+            <h5>Size:<br><input type="number" value="5" name="Size"></h5>
             <br>
-            <h5>Color:<br><input type="text" placeholder="red"></h5>
+            <h5>Color:<br><input type="text" placeholder="red" name="Color"></h5>
             <br>
-            <h5>Set Price:<br><input type="number" value="500"></h5>
+            <h5>Set Price:<br><input type="number" value="500" name="set_price"></h5>
             <br>
-            <h5>Description:<br><textarea></textarea></h5>
+            <h5>Description:<br><textarea name="description2"></textarea></h5>
             <br>
+            <h5>Upload Pics:<br><input type="file" name="Pics"></h5> 
             <button class="submit">Submit</button> 
             
       </div>
