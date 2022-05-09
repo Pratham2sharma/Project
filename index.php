@@ -26,8 +26,12 @@
       <div class="strip d-flex justify-content-between px-4 py-1" style="background-color: #c1003c;">
           <p class="font-rale font-size-12 text-light m-0">Welcome to this footwear Selling Website</p>
           <div class="font-rale font-size-14">
-              <a href="registration.php" class="px-3 border-right border-left text-light">Login</a>
-              <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
+                     <a class="nav-link dropdown-toggle px-3 border-right text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="registration.php">Login</a>
+                    <a class="dropdown-item" href="logout.php">Logout</a>
+              </div>
+                      <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
           </div>
       </div>
 
@@ -871,8 +875,8 @@
               <div class="d-flex flex-column flex-wrap">
                 <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
                 <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
-                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
-                <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                <a href="privacy_policy.php" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                <a href="t&c.php" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
               </div>
             </div>
             <!-- <div class="col-lg-2 col-12">

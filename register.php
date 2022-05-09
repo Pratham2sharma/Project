@@ -11,6 +11,8 @@
   $email = $_POST['email'];
   $password = $_POST['password1'];
 
+  
+
   $s = "SELECT * FROM registration WHERE username = '$username' ";
 
   $result = mysqli_query($con,$s);
