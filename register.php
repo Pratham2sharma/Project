@@ -11,8 +11,6 @@
   $email = $_POST['email'];
   $password = $_POST['password1'];
 
-  
-
   $s = "SELECT * FROM registration WHERE username = '$username' ";
 
   $result = mysqli_query($con,$s);
@@ -20,7 +18,7 @@
   $num = mysqli_num_rows($result);
 
   if($num==1){
-      echo"Username aleready taken";
+      echo"Username already taken";
   }else{
       $reg ="INSERT INTO registration(username , email , password1) VALUES('$username' , '$email' , '$password')";
       mysqli_query($con, $reg);

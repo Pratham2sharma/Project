@@ -7,19 +7,15 @@
     <title>Footwear Selling Website</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <!-- Owl Carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- Font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- Custome CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <!-- Start Header -->
     <header id="header">
       <div class="strip d-flex justify-content-between px-4 py-1" style="background-color: #c1003c;">
@@ -33,7 +29,6 @@
                       <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
           </div>
       </div>
-
       <!-- Start Primary Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e40046;">
           <div class="container-fluid">
@@ -82,8 +77,6 @@
       <!-- End Primary Navigation -->  
   </header>
   <!-- End Header -->
-
-
 <body>
     <br>
     <br>
@@ -119,8 +112,7 @@
 <br>
 <strong>QUESTIONS and Feedback</strong></h3>
 <p>We welcome questions, comments, and concerns about our privacy policy and privacy practices. If you wish to provide feedback or if you have questions or concerns or wish to exercise your rights related to your personal data, please contact us via: (i) the “Contact Us” section of our website; or (ii) an email to <a href="mailto:sharmapratham208@gmail.com">privacy@Footwear shopee</a>.</p>
-
 <p>If you contact us with a privacy complaint it will be assessed with the aim of resolving the issue in a timely and effective manner.</p>
 <p> </p>
 </body>
-</html>    
+</html> 

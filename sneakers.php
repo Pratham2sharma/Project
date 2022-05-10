@@ -1,83 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footwear Selling Website</title>
+    <title>Snakers page</title>
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Owl Carousel-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custome CSS file -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sneakers.css">
 </head>
+
 <body>
 
-    <!-- Start Header -->
-    <header id="header">
-      <div class="strip d-flex justify-content-between px-4 py-1" style="background-color: #c1003c;">
-          <p class="font-rale font-size-12 text-light m-0">Welcome to this footwear Selling Website</p>
-          <div class="font-rale font-size-14">
-              <a href="registration.php" class="px-3 border-right border-left text-light">Login</a>
-              <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
-          </div>
-      </div>
-
-      <!-- Start Primary Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e40046;">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Footwear Shoppee</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav m-auto font-rubik">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Products
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="mens.php">Mens</a>
-                    <a class="dropdown-item" href="kids.php">Kids</a>
-                    <a class="dropdown-item" href="sports.php">Sports</a>
-                    <a class="dropdown-item" href="sneakers.php">Sneakers</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
-                </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="refurbished.php">Refurbished</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="sell_here.php">Sell here</a>
-                </li>
-              </ul>
-              <form action="#" class="font-size-14 font-rale">
-                  <a href="cart.php" class="py-2 rounded-pill color-primary-bg">
-                      <span class="font-size-15 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
-                      <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
-                  </a>
-              </form>
+     <!-- Start Header -->
+     <header id="header">
+        <div class="strip d-flex justify-content-between px-4 py-1" style="background-color: #c1003c;">
+            <p class="font-rale font-size-12 text-light m-0">Welcome to this footwear Selling Website</p>
+            <div class="font-rale font-size-14">
+                <a href="#" class="px-3 border-right border-left text-light">Login</a>
+                <a href="#" class="px-3 border-right text-light">Wishlist(0)</a>
             </div>
-          </div>
-      </nav>
-      <!-- End Primary Navigation -->  
-  </header>
-  <!-- End Header -->
+        </div>
+  
+        <!-- Start Primary Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e40046;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Footwear Shoppee</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="mens.html">Mens</a>
+                      <a class="dropdown-item" href="kids.html">Kids</a>
+                      <a class="dropdown-item" href="sports.html">Sports</a>
+                      <a class="dropdown-item" href="">Sneakers</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Category<i class="fas fa-chevron-down"></i></a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="refurbished.html">Refurbished</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sell_here.html">Sell here</a>
+                  </li>
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-15 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- End Primary Navigation -->  
+    </header>
+    <!-- End Header -->
     <h1 class="sneaker">Sneakers</h1>
     <section>
         <div class="container">
@@ -101,85 +111,7 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="imgbx">
-                    <img src="products/shoes3.png">
-                    <br>
-                    <br>
-                    <h2>Nike Shoes</h2>
-                </div>
-                <div class="content">
-                    <div class="size">
-                        <h3>Size :</h3>
-                        <span>7</span>
-                        <span>8</span>
-                        <span>9</span>
-                        <span>10</span>
-
-                    </div>
-                    <div class="color">
-                        <h3>Color :</h3>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <a href="#">ADD TO CART</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="imgbx">
-                    <img src="products/shoes5.png">
-                    <br>
-                    <br>
-                    <h2>Nike Shoes</h2>
-                </div>
-                <div class="content">
-                    <div class="size">
-                        <h3>Size :</h3>
-                        <span>7</span>
-                        <span>8</span>
-                        <span>9</span>
-                        <span>10</span>
-
-                    </div>
-                    <div class="color">
-                        <h3>Color :</h3>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <a href="#">ADD TO CART</a>
-                </div>
-            </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="card">
-                <div class="imgbx">
-                    <img src="products/shoes7.png">
-                    <br>
-                    <br>
-                    <h2>Nike Shoes</h2>
-                </div>
-                <div class="content">
-                    <div class="size">
-                        <h3>Size :</h3>
-                        <span>7</span>
-                        <span>8</span>
-                        <span>9</span>
-                        <span>10</span>
-
-                    </div>
-                    <div class="color">
-                        <h3>Color :</h3>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
             <div class="card">
@@ -202,13 +134,12 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
             <div class="card">
                 <div class="imgbx">
-                    <img src="products/shoes3.png">
-                    <br>
+                    <img class="shoes3" src="products/shoes3.png">
                     <h2>Nike Shoes</h2>
                 </div>
                 <div class="content">
@@ -226,7 +157,79 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="imgbx">
+                    <img src="Images/shoes5.png">
+                    <h2>Nike Shoes</h2>
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size :</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+
+                    </div>
+                    <div class="color">
+                        <h3>Color :</h3>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="Images/shoes10.png">
+                    <h2>Nike Shoes</h2>
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size :</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+
+                    </div>
+                    <div class="color">
+                        <h3>Color :</h3>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#">BUY NOW</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="Images/shoes7.png">
+                    <h2>Nike Shoes</h2>
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size :</h3>
+                        <span>7</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+
+                    </div>
+                    <div class="color">
+                        <h3>Color :</h3>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
         </div>
@@ -236,7 +239,7 @@
         <div class="container">
             <div class="card">
                 <div class="imgbx">
-                    <img src="products/shoes.png">
+                    <img src="Images/shoes.png">
                     <h2>Nike Shoes</h2>
                 </div>
                 <div class="content">
@@ -254,14 +257,12 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
             <div class="card">
                 <div class="imgbx">
-                    <img src="products/shoes3.png">
-                    <br>
-                    <br>
+                    <img src="Images/shoes.png">
                     <h2>Nike Shoes</h2>
                 </div>
                 <div class="content">
@@ -279,12 +280,12 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
             <div class="card">
                 <div class="imgbx">
-                    <img src="products/shoes.png">
+                    <img src="Images/shoes.png">
                     <h2>Nike Shoes</h2>
                 </div>
                 <div class="content">
@@ -302,7 +303,7 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <a href="#">ADD TO CART</a>
+                    <a href="#">BUY NOW</a>
                 </div>
             </div>
         </div>
@@ -317,15 +318,13 @@
               <p class="font-size-14 font-rale text-white-50">Give your feet the beauty treatment that only brand new shoes can give.</p>
             </div>
             <div class="col-lg-4 col-12">
-              <h4 class="font-rubik font-size-20">Feedback</h4>
-              <form action="feedback.php" method="post" class="form-row">
+              <h4 class="font-rubik font-size-20">Newsletter</h4>
+              <form class="form-row">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="username" name="username">
-                  <br>
-                  <textarea class="form-control" placeholder="Description" name="Description1"></textarea>
+                  <input type="text" class="form-control" placeholder="Email *">
                 </div>
                 <div class="col">
-                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                  <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
                 </div>
               </form>
             </div>
