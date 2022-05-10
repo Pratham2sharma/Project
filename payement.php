@@ -81,15 +81,15 @@
 
   <div class="backg">
   <div class="payment">
-    <form action="payment_back.php" method="post" class="form">
+    <form action="payment_gateway.php" method="post" class="form">
       <div class="row">
         <div class="col">
           <h3 class="title">Billing Address</h3>
           <hr>
 
           <div class="inputbox">
-            <span>Full Name :</span>
-            <input type="text" placeholder="Enter your name" name="Fname">
+            <span>Your Name :</span>
+            <input type="text" placeholder="Enter your name" name="name">
           </div>
 
           <div class="inputbox">
@@ -121,45 +121,7 @@
         </div>
         </div>
 
-        <div class="col">
-
-          <h3 class="title">Payment</h3>
-          <hr>
-
-          <div class="inputbox">
-            <span>Cards Accepted:</span>
-            <img src="products/card.png" alt="">
-          </div>
-
-          <div class="inputbox">
-            <span>Name on Card :</span>
-            <input type="text" placeholder="" name="card_name">
-          </div>
-
-          <div class="inputbox">
-            <span>Credit Card Number :</span>
-            <input type="number" placeholder="1234-2222-3333" name="credit_card_number">
-          </div>
-
-          <div class="inputbox">
-            <span>Exp Month:</span>
-            <input type="text" placeholder="august" name="expiry_month">
-          </div>
-          
-          <div class="flex">
-
-          <div class="inputbox">
-            <spam> Exp Year:</span>
-              <input type="text" placeholder="2022" name="expiry_year">
-          </div>
-
-          <div class="inputbox">
-            <span>CVV :</span>
-            <input type="text" placeholder="1234" name="cvv">
-          </div>
-        </div>
-        </div>
-      </div>
+       
       <input type="submit" value="Proceed" class="submit-btn">
 
     </form>
