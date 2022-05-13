@@ -17,7 +17,9 @@
   $num = mysqli_num_rows($result); 
      
   if($num==1){
-    header('location: index.php');
+    header('location: user_index.php');
+    session_start();
+    $_SESSION['loggedin'] = 1;
   }else{
     header('location: registration.php');
   }
